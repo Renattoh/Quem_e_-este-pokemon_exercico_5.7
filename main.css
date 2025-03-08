@@ -9,7 +9,16 @@ section h2,
 section h3,
 form button {
     font-family: 'Bungee',cursive;
+    font-weight: 'lighter',normal;
+
+}
+
+h1 {
+    font-family: 'pokemon';
+    color: #e4d504;
     font-weight: lighter;
+    letter-spacing: 3px;
+    font-style: normal;
 }
 
 body, input, textarea {
@@ -17,19 +26,23 @@ body, input, textarea {
 }
 
 header {
-    padding: 16px 0;
-    background-color: #ff0000;
-    color: #e4d504;
+    padding: 1px 10px;
+    background-color: #8f0303;
+    color: #ecf0f1;
+    max-height: 100px;
+    
 }
+
+
 
 header nav li {
     display: inline;
-    margin-left: 16px;
+    margin-left: 16px;    
     font-size: 18px;
 }
 
 header nav li a {
-    color: #ecf0f1;
+    color: #e4d504;
     text-decoration: none;
 }
 
@@ -47,7 +60,7 @@ section .container {
 }
 
 .brands-list img {
-    height: 24px;
+    height: 120px;
     margin-right: 14px;
     margin-top: 14px;
 }
@@ -70,17 +83,17 @@ section h2 {
 }
 
 section{
-    color: #e4d504;
-    background-color: #011f70;
+    color: #ff0000;
+    background-color: #ffffff;
 }
 
 section p {
     margin-bottom: 8px;
 }
 
-.imagem-pricipal {
+.store-front {
     margin-right: 32px;
-    max-width: 700px;
+    max-width: 750px;
 }
 
 .social-links img {
@@ -89,7 +102,7 @@ section p {
 
 .social-links li {
     display: inline;
-    margin 12px;
+    margin: 20px;
 }
 
 .social-links li a {
@@ -133,7 +146,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #385caa;
+    background-color: #e4d504;
 }
 
 form input:hover,
@@ -146,7 +159,7 @@ input:focus, textarea:focus {
 }
 
 footer {
-    background-color: #182c61;
-    color: #ecf0f1;
+    background-color: #ff0000;
+    color: #f0f1ec;
     padding: 16px 0;
 }
