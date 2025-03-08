@@ -18,8 +18,8 @@ body, input, textarea {
 
 header {
     padding: 16px 0;
-    background-color: #182c61;
-    color: #ecf0f1;
+    background-color: #ff0000;
+    color: #e4d504;
 }
 
 header nav li {
@@ -70,16 +70,17 @@ section h2 {
 }
 
 section{
-    color: #182c61;
-    background-color: #182b612f;
+    color: #e4d504;
+    background-color: #011f70;
 }
 
 section p {
     margin-bottom: 8px;
 }
 
-.store-front {
+.imagem-pricipal {
     margin-right: 32px;
+    max-width: 700px;
 }
 
 .social-links img {
