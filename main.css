@@ -74,6 +74,7 @@ section .container {
 }
 
 section {
+    
     padding: 24px 0;
 }
 
@@ -97,12 +98,22 @@ section p {
 }
 
 .social-links img {
+    margin-left: 20px;
     height: 24px;    
+}
+
+.pokedex img {
+    height: 60px;    
+}
+
+.pokedex li {
+    display: inline;
+    margin-left: 40px;    
 }
 
 .social-links li {
     display: inline;
-    margin: 20px;
+    margin: 2px;
 }
 
 .social-links li a {
@@ -140,7 +151,7 @@ section h3 {
 }
 
 form button {
-    background-color: #182c61;
+    background-color: #ff0000;
     color: #fff;
     border: none;    
 }
